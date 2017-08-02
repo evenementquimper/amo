@@ -3,10 +3,21 @@
 
 FlowRouter.route('/', {
 	name:'index',
-  action:function() {
+  action:function(params, queryParams) {
+    console.log("campagne pour: "+JSON.stringify(params));
+    console.log("campagne pour: "+JSON.stringify(queryParams));
     BlazeLayout.render("applicationLayout", {main:"amaccueil"});
  }
 });
+
+FlowRouter.route('/campagne/:prenom', {
+  name:'campagne',
+  action:function(params, queryParams) {
+    console.log("campagne pour: "+JSON.stringify(params));
+    BlazeLayout.render("applicationLayout", {main:"amaccueil"});
+ }
+});
+
 
 FlowRouter.route('/amopok_android', {
   name:'amandroid',

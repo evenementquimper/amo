@@ -4,11 +4,11 @@ import { Template } from 'meteor/templating';
 import './AMAccueil.html';
 
 Template.amaccueil.onCreated(function() {
-  
+  console.log("prenom param: "+FlowRouter.getParam("prenom"));
 });
 
  Template.amaccueil.onRendered(function() {
-
+  console.log("render prenom param: "+FlowRouter.getParam("prenom"));
 });
 
 
