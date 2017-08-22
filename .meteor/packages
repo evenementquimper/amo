@@ -24,3 +24,4 @@ kadira:flow-router
 kadira:blaze-layout
 email@1.2.3
 dynamic-import@0.1.1
+kwk:fibers

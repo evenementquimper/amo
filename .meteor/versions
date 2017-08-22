@@ -38,10 +38,11 @@ insecure@1.0.7
 jquery@1.11.10
 kadira:blaze-layout@2.3.0
 kadira:flow-router@2.12.1
+kwk:fibers@1.0.5
 launch-screen@1.1.1
 livedata@1.0.18
 logging@1.1.17
-meteor@1.7.0
+meteor@1.7.1
 meteor-base@1.1.0
 minifier-css@1.2.16
 minifier-js@2.1.1
